@@ -11,8 +11,7 @@ var fakeButton2 = {
 const buttonArray = [fakeButton0, fakeButton1, fakeButton2];
 const types = ['exchange', 'sharepoint', 'groups']
 
-let btnNum = -1;
-for (btnNum = 0; btnNum < types.length; btnNum++) {
+for (var btnNum = 0; btnNum < types.length; btnNum++) {
     buttonArray[btnNum].onClick = () => {
         console.log(types[btnNum]);
     }
