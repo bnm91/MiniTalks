@@ -1,0 +1,9 @@
+<div>
+    MATT
+    <button (click)="subscribeToPodcast()">Subscribe</button>
+    <button (click)="unsubscribeFromPodcast()">Unsubscribe</button>
+    <span *ngIf="lastEpisodeListened">
+    [Episode {{lastEpisodeListened}}]
+    </span>
+</div>
+

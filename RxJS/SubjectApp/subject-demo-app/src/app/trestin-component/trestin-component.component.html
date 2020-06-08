@@ -1,0 +1,9 @@
+<div>
+    TRESTIN
+    <button (click)="subscribeToPodcast()">Subscribe</button>
+    <button (click)="unsubscribeFromPodcast()">Unsubscribe</button>
+    <span *ngIf="lastEpisodeListened">
+    Episode {{lastEpisodeListened}}? Oh I think I listened to part of that
+    </span>
+</div>
+
