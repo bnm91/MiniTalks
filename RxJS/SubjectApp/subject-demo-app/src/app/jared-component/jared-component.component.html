@@ -1,5 +1,5 @@
 <div>
-    JARED
+    JARED {{isSubbed ? '-- sub' : ''}}
     <button (click)="subscribeToPodcast()">Subscribe</button>
     <button (click)="unsubscribeFromPodcast()">Unsubscribe</button>
     <span *ngIf="lastEpisodeListened">

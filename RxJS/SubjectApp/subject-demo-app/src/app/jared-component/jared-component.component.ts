@@ -9,6 +9,7 @@ import { PodcastSource } from '../business/podcast-source';
 export class JaredComponentComponent implements OnInit {
   lastEpisodeListened: number;
   subscription: any;
+  isSubbed = false;
 
   constructor(private podcastSource: PodcastSource) { }
 
@@ -16,11 +17,13 @@ export class JaredComponentComponent implements OnInit {
   }
 
   subscribeToPodcast() {
+    this.isSubbed = true;
     this.subscription = this.podcastSource.subject.subscribe(x => this.lastEpisodeListened = x);
   }
 
 
   unsubscribeFromPodcast() {
+    this.isSubbed = false;
     this.subscription.unsubscribe();
   }
 

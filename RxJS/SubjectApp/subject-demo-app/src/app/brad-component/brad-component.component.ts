@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PodcastSource } from '../business/podcast-source';
+import { isUndefined } from 'util';
 
 @Component({
   selector: 'app-brad-component',
@@ -8,6 +9,8 @@ import { PodcastSource } from '../business/podcast-source';
 })
 export class BradComponentComponent implements OnInit {
   lastEpisodeListened: number;
+  subscription: any;
+  isSubbed: boolean = false;
 
   constructor(private podcastSource: PodcastSource) { }
 
@@ -15,11 +18,13 @@ export class BradComponentComponent implements OnInit {
   }
 
   subscribeToPodcast() {
-    this.podcastSource.subject.subscribe(x => this.lastEpisodeListened = x);
+    this.isSubbed = true;
+    this.subscription = this.podcastSource.subject.subscribe(x => this.lastEpisodeListened = x);
   }
 
   unsubscribeFromPodcast() {
-    this.podcastSource.subject.unsubscribe();
+    this.isSubbed = false;
+    this.subscription.unsubscribe();
   }
 
 }
