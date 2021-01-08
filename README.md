@@ -5,7 +5,7 @@ code examples from any small talk I've given at SkyKick
 ## Talks
 ### Pass By Value
 Uses a "brain teaser" type example to illustrate how Javascript function parameters are pass-by-value.  Also illustrates closures
-### Execution Contexts (and Hoisting)
+### Hoisting
 Using another "brain teaser" as a jumping off point into hoisting and how it's caused by Javascript execution contexts
 ### Strategy Pattern
 A "101" level talk covering Chapter 1 of the Head First Design Patterns book from O'Reilly with an emphasis on introducing the Strategy Pattern.  Examples in C#
