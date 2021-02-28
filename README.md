@@ -13,5 +13,8 @@ A "101" level talk covering Chapter 1 of the Head First Design Patterns book fro
 An introduction to the classic Observer Pattern, with examples in C#
 ### Adapter Pattern
 An introduction to the Adapter pattern, with examples in C#
+### Builder Pattern
+An introduction to the Builder pattern, with examples in C#.
+Each DinnerSimulator has a Run method which is the entry point to that example.  What the example demonstrates is described by the containing folder.
 ### RxJS
 Introduction to the RxJS library through the lens of the Observer Patter and with an emphasis on it's usage in Angular.
