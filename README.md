@@ -19,5 +19,8 @@ Each DinnerSimulator has a Run method which is the entry point to that example. 
 ### Template (Method) Pattern
 An introduction to the Template Method Pattern, with examples in C#.
 Each coffeeshop has a StandardOrder method which is the entry point to that example.  What the example demonstrates is described by the containing folder. Based on "StarBuzz" example from the Head First Design Patterns book.
+### Iterator Pattern
+An introduciton to the Iterator Pattern, with examples in C#.
+Each SuperRestaurantServer has a PrintMenu method which is the entry point to that example.  What the example demonstrates is described by containing folder.
 ### RxJS
-Introduction to the RxJS library through the lens of the Observer Patter and with an emphasis on it's usage in Angular.
+Introduction to the RxJS library through the lens of the Observer Pattern and with an emphasis on it's usage in Angular.
