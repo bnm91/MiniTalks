@@ -7,6 +7,8 @@ code examples from any small talk I've given at SkyKick
 Uses a "brain teaser" type example to illustrate how Javascript function parameters are pass-by-value.  Also illustrates closures
 ### Hoisting
 Using another "brain teaser" as a jumping off point into hoisting and how it's caused by Javascript execution contexts
+### Typescript Unknown
+Explains Tyepscript's top type 'unknown' and its properties through code examples.  File not intended to be executed, compile time errors are intentional.
 ### Strategy Pattern
 A "101" level talk covering Chapter 1 of the Head First Design Patterns book from O'Reilly with an emphasis on introducing the Strategy Pattern.  Examples in C#
 ### Observer Pattern
