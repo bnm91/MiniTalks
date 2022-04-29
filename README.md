@@ -24,5 +24,8 @@ Each coffeeshop has a StandardOrder method which is the entry point to that exam
 ### Iterator Pattern
 An introduciton to the Iterator Pattern, with examples in C#.
 Each SuperRestaurantServer has a PrintMenu method which is the entry point to that example.  What the example demonstrates is described by containing folder.
+### Composite Pattern
+An introduction to the Composite Pattern, with examples in C#.  Follows on the same "user story" as the Iterator examples.
+There are static "Example" classes which serve as the entry point to the demonstrations.
 ### RxJS
 Introduction to the RxJS library through the lens of the Observer Pattern and with an emphasis on it's usage in Angular.
